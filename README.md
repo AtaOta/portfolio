@@ -27,3 +27,17 @@ npm run dev
 ```sh
 npm run build
 ```
+### GIT COMMAND TO PUSH A VUE PROJECT IN GITHUB PAGES
+## 1
+```sh
+ git add dist -f
+```
+## 2
+```sh
+git commit -m "adding dist, VERSION-1.0.1"
+```
+
+## 3
+```sh
+git subtree push --prefix dist origin gh-pages
+```
